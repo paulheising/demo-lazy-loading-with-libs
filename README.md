@@ -1,4 +1,4 @@
-This projects demonstrates the following issue on github: TODO INSERT LINK
+This projects demonstrates the following issue on github: https://github.com/angular/angular/issues/45304
 
 Use `ng build foo-lib && ng build` to build the lib and app.
 
