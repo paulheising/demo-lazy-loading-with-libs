@@ -1,3 +1,5 @@
+import { BetaModule } from 'foo-lib';
+
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -6,6 +8,6 @@ import { LazyComponent } from './lazy.component';
 
 @NgModule({
   declarations: [LazyComponent],
-  imports: [CommonModule, LazyRoutingModule],
+  imports: [CommonModule, LazyRoutingModule, BetaModule],
 })
 export class LazyModule {}
