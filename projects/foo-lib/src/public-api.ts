@@ -2,6 +2,8 @@
  * Public API Surface of foo-lib
  */
 
-export * from './lib/foo-lib.service';
-export * from './lib/foo-lib.component';
-export * from './lib/foo-lib.module';
+export * from './lib/alpha/alpha.component';
+export * from './lib/alpha/alpha.module';
+
+export * from './lib/beta/beta.component';
+export * from './lib/beta/beta.module';
